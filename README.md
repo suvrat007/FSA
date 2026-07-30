@@ -11,12 +11,6 @@ forward model, multi-company comparison, industry positioning, and formatted exp
 The platform does not just display ratios. The assessment engine scores each dimension against
 benchmark bands and states, in prose, what the numbers mean and which constraint binds.
 
-## Documentation
-
-[DOCUMENTATION.md](DOCUMENTATION.md) is the full technical and financial reference: every feature,
-the data format it receives and produces, the financial formula behind it, and the actual code
-that implements it, with worked examples using real output from the bundled datasets.
-
 ## Architecture
 
 The project separates calculation from presentation. Every function lives in `functions/`.
